@@ -1,0 +1,233 @@
+
+!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ديوان الشاعر سراط بلال</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Amiri', serif;
+            background-color: #f4f1e8;
+            color: #333;
+            text-align: center;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8b6f47;
+            color: white;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .sub-heading {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .hero-image img {
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            background-color: #d4c2a6;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .poem-container, .quote-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .poem, blockquote, form {
+            background: white;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 8px;
+            width: 60%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        pre {
+            font-family: 'Amiri', serif;
+            font-size: 1.4em;
+            color: #5a4231;
+            text-align: center;
+            white-space: pre-line;
+        }
+
+        blockquote {
+            font-size: 1.4em;
+            font-style: italic;
+            color: #5a4231;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #8b6f47;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        button:hover {
+            background-color: #6a5133;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .footer-links a {
+            background-color: #6a5133;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #8b6f47;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="jjj.jpg" alt="شعار Tawaqx" class="logo">
+            <h1>ديوان الشاعر سراط بلال</h1>
+            <p class="sub-heading">حيثُ تتجلى الكلمات في أجمل معانيها</p>
+        </div>
+        <div class="hero-image">
+            <img src="jbbb.jpg" alt="صورة شعرية احترافية">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#poems">قصائد</a></li>
+            <li><a href="#quotes">اقتباسات</a></li>
+            <li><a href="#about">عن الشاعر</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="poems">
+            <h2>قصائد الشاعر</h2>
+            <div class="poem-container">
+                <article class="poem">
+                    <h3>تهذيب النفس</h3>
+                    <button onclick="togglePoem('poem1')">قراءة المزيد</button>
+                    <pre id="poem1" class="hidden">
+و ذكرتُ نفسي في الخلوات أفيقي  
+و الدمع قبل ذكرها سابقٌ  
+
+ويح عيني إن خان ناظرها  
+من يومٍ لسانها عليَّ ناطقُ  
+
+تتوارى عن الورى كأنما  
+تحسبُ أن ما لها مرافقُ  
+
+و الشاهدان قد خطَّ قلمهما  
+عبدًا للذنوبِ لا يفارقُ  
+
+قد أمسى على اللهو عاكفًا  
+و من كأس الهوى هو ذائقُ  
+
+فيا ويلتي إذ الصحفُ طويت  
+و جفتِ الآلامُ و صفتِ الخلائقُ
+وجيء بالنفس قد أقبلت  
+معها رفیقانِ، شهیدٌ و سائقُ  
+
+رب قد جئتك للغفرانِ ملتمسًا  
+فأنا المخلوقُ وأنت الخالقُ  
+
+أنا عصيٌّ جُبلتُ على الخطايا  
+أنت غفورٌ، للإصباحِ فالقُ  
+
+هب لي توبةً كنتُ أطلبها  
+واجعلني بعبادك الصالحين لاحقُ  
+
+ما لي سبيلٌ إليك إلا الرجا  
+فعبدُك منيبٌ و قلبُه صادقُ  
+                    </pre>
+                </article>
+            </div>
+        </section>
+
+        <section id="quotes">
+            <h2>اقتباسات من أعماله</h2>
+            <div class="quote-container">
+                <blockquote>"لازلت أفتش عن نفسي في نفسي، عن قلبي في قلبي، لازلت أبحث عني في عني."</blockquote>
+                <blockquote>"صوت المدفعية بات عذبًا، بالنسبة لأولئك الذين ألفوا الحروب."</blockquote>
+                <blockquote>"على جدار النسيان، ثمة لوحات لا تُنسى."</blockquote>
+                <blockquote>"لا يوجد شخص فقير، فكل إنسان غني بطريقة معينة."</blockquote>
+                <blockquote>"عندما انتهى الكاتب من عرض روايته الحزينة، وقف الجميع يهتف ويصفق إعجابًا بها.. لم يكن يعلم أحد أنها حياته!"</blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/profile.php?id=100008036956522" target="_blank">تابع الشاعر</a>
+            <a href="
+            https://www.facebook.com/profile.php?id=100081757543493
+            " target="_blank">تواصل مع المصمم</a>
+        </div>
+        <p>&copy; 2025 ديوان سراط بلال - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script>
+        function togglePoem(id) {
+            var element = document.getElementById(id);
+            element.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
